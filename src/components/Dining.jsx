@@ -6,7 +6,7 @@ export default function Dining(){
     
     <nav className="border-gray-200">
     <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <a href="/" className="flex">
+        <a href="#" className="flex">
         <svg className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA"></path><path d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z" fill="#A4CAFE"></path><path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2"></path></g><defs><clipPath id="clip0"><rect width="51" height="70" fill="white"></rect></clipPath></defs></svg>
             <span className="self-center text-lg font-semibold whitespace-nowrap">MythicalPlace</span>
         </a>
@@ -55,7 +55,6 @@ export default function Dining(){
     </nav>
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
-
   {/* Welcome section */}
 
   <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
@@ -146,13 +145,13 @@ export default function Dining(){
 <br/> 
 
                           {/* Footer */}
-  <footer className="bg-white dark:bg-gray-900">
+                          <footer className="bg-white dark:bg-gray-900">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
                   <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mythical Place</span>
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -185,21 +184,22 @@ export default function Dining(){
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Information</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-2">
     <li className="mb-1">
-        <a href="#" className="hover:underline">Home</a>
+        <a href="/" className="hover:underline">Home</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Rooms & Suites</a>
+        <a href="/packages" className="hover:underline">Rooms & Suites</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Experiences</a>
+        <a href="/exp" className="hover:underline">Experiences</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Dining</a>
+        <a href="/dining" className="hover:underline">Dining</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Events</a>
+        <a href="/events" className="hover:underline">Events</a>
     </li>
 </ul>
+
               </div>
           </div>
       </div>

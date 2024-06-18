@@ -18,7 +18,7 @@ export default function Home(){
         <div className="hidden md:block w-full md:w-auto" id="mobile-menu">
         <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
             <li>
-            <a href="#" className="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
+            <a href="/" className="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded focus:outline-none" aria-current="page">Home</a>
             </li>
             <li>
                 <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 font-medium flex items-center justify-between w-full md:w-auto">Rooms & Suites <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
@@ -253,7 +253,6 @@ export default function Home(){
 
   {/* Footer */}
 
-
   <footer className="bg-white dark:bg-gray-900">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
@@ -293,19 +292,19 @@ export default function Home(){
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Information</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-2">
     <li className="mb-1">
-        <a href="#" className="hover:underline">Home</a>
+        <a href="/" className="hover:underline">Home</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Rooms & Suites</a>
+        <a href="/packages" className="hover:underline">Rooms & Suites</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Experiences</a>
+        <a href="/exp" className="hover:underline">Experiences</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Dining</a>
+        <a href="/dining" className="hover:underline">Dining</a>
     </li>
     <li>
-        <a href="#" className="hover:underline">Events</a>
+        <a href="/events" className="hover:underline">Events</a>
     </li>
 </ul>
 
