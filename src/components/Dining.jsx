@@ -1,8 +1,8 @@
 import 'flowbite'
 export default function Dining(){
     return <>
-            {/* Navbar */}
-<div className="max-w-2xl mx-auto">
+        {/* Navbar */}
+        <div className="max-w-2xl mx-auto">
     
     <nav className="border-gray-200">
     <div className="container mx-auto flex flex-wrap items-center justify-between">
@@ -44,10 +44,10 @@ export default function Dining(){
             <a href="/exp" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Experiences</a>
             </li>
             <li>
-            <a href="#" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Dining</a>
+            <a href="/dining" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Dining</a>
             </li>
             <li>
-            <a href="#" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Events</a>
+            <a href="/events" className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0">Events</a>
             </li>
         </ul>
         </div>
@@ -74,7 +74,18 @@ export default function Dining(){
 </section>
 <br/>
 <br/>
-    
-    
+      {/* Food and Drinks */}
+    <h1 className="text-2xl font-black">EXPLORE OUR MENUS AND WINE AND DINE AT OUR LAKE VIEWS TOP RESTAURANT AND NIGHT OUT BAR</h1>
+   
+    <div class="bg-[url('/img/hero-pattern.svg')]">
+        {/* ...  */}
+</div>
+<div class="bg-[url('/img/hero-pattern.svg')]">
+    {/* ... */}
+</div>
+<br/>
+<br/>
+<h1 className="text-lg italic">Our kitchen creates magical meals using the best locally grown ingredients. Vegetables are grown in our kitchen garden on-site, and local suppliers are hand-picked to deliver fresh meats and produce daily. The restaurant serves buffet breakfast, lunch, and dinner, and our award-winning chef will be pleased to provide for any special dietary requirements that you may have. You can dine inside or alfresco with a fabulous view of Lake Victoria
+</h1>   
     </>
 }
