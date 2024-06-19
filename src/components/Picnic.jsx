@@ -1,6 +1,6 @@
-export default function Concert(){
-    return <>
-     {/* Navbar */}
+export default function Picnic(){
+    return<>
+      {/* Navbar */}
 <div className="max-w-2xl mx-auto">
     
     <nav className="border-gray-200">
@@ -55,88 +55,87 @@ export default function Concert(){
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 
-        {/* Concert Package */}
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Concert Packages</h2>
-          <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Choose the perfect package for your ultimate concert experience.</p>
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Holiday Picnic Packages</h2>
+          <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Choose the perfect package for your holiday picnic experience.</p>
       </div>
       <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-           {/* Regular Package  */}
+            {/* Regular Package   */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Regular</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Basic concert package.</p>
+              <h3 className="mb-4 text-2xl font-semibold">Classic</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Basic picnic package.</p>
+              <div className="flex justify-center items-baseline my-8">
+                  <span className="mr-2 text-5xl font-extrabold">$50</span>
+                  <span className="text-gray-500 dark:text-gray-400">/person</span>
+              </div>
+                 {/* List   */}
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                  <li className="flex items-center space-x-3">
+                      <span>Picnic Blanket Rental</span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Selection of Sandwiches</span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Assorted Snacks</span>
+                  </li>
+              </ul>
+              <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
+          </div>
+             {/* Deluxe Package */}
+          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Deluxe</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Enhanced picnic experience.</p>
               <div className="flex justify-center items-baseline my-8">
                   <span className="mr-2 text-5xl font-extrabold">$100</span>
-                  <span className="text-gray-500 dark:text-gray-400">/ticket</span>
+                  <span className="text-gray-500 dark:text-gray-400">/person</span>
               </div>
-                {/* List   */}
+                 {/* List  */}
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
-                      <span>General Admission</span>
+                      <span>Deluxe Picnic Set</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Standing Area</span>
+                      <span>Selection of Gourmet Sandwiches</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Concert Merchandise</span>
+                      <span>Assorted Appetizers and Desserts</span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                      <span>Bottle of Champagne</span>
                   </li>
               </ul>
               <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>
-            {/* VIP Package */}
+             {/* VIP Package   */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">VIP</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Enhanced concert experience.</p>
+              <h3 className="mb-4 text-2xl font-semibold">Luxury</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ultimate picnic luxury.</p>
               <div className="flex justify-center items-baseline my-8">
                   <span className="mr-2 text-5xl font-extrabold">$250</span>
-                  <span className="text-gray-500 dark:text-gray-400">/ticket</span>
+                  <span className="text-gray-500 dark:text-gray-400">/person</span>
               </div>
-                {/* List */}
+                 {/* List    */}
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
-                      <span>VIP Lounge Access</span>
+                      <span>Private Cabana Rental</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Exclusive Seating Area</span>
+                      <span>Personal Chef Service</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Complimentary Drinks</span>
+                      <span>Exclusive Gourmet Menu</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Meet & Greet with Artists</span>
-                  </li>
-              </ul>
-              <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
-          </div>
-            {/* VVIP Package  */}
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">VVIP</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ultimate concert luxury.</p>
-              <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">$500</span>
-                  <span className="text-gray-500 dark:text-gray-400">/ticket</span>
-              </div>
-                {/* List   */}
-              <ul role="list" className="mb-8 space-y-4 text-left">
-                  <li className="flex items-center space-x-3">
-                      <span>VVIP Lounge Access</span>
+                      <span>Fine Wine Selection</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Front Row Seating</span>
+                      <span>Live Entertainment</span>
                   </li>
                   <li className="flex items-center space-x-3">
-                      <span>Personal Butler Service</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                      <span>Exclusive After-Party Access</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                      <span>Private Transportation</span>
-                  </li>
-                  <li className="flex items-center space-x-3">
-                      <span>Custom Merchandise</span>
+                      <span>Chauffeured Transportation</span>
                   </li>
               </ul>
               <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
@@ -144,6 +143,7 @@ export default function Concert(){
       </div>
   </div>
 </section>
+
 
 {/* Footer */}
 <footer className="bg-white dark:bg-gray-900">
@@ -232,6 +232,7 @@ export default function Concert(){
       </div>
     </div>
 </footer>
+    
     
     </>
 }
