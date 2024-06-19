@@ -6,6 +6,7 @@ import Exp from "./components/Exp.jsx";
 import Dining from "./components/Dining.jsx";
 import Events from "./components/Events.jsx";
 import Wedding from './components/Wedding.jsx';
+import Concert from './components/Concert.jsx';
 
 
 function App(){
@@ -19,6 +20,8 @@ function App(){
     <Route path = "/dining"  element = {<Dining/>} />
     <Route path = "/events"  element = {<Events/>} />
     <Route path = "/wedding"  element = {<Wedding/>} />
+    <Route path = "/concert"  element = {<Concert/>} />
+
 
 
 
