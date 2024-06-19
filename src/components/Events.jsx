@@ -1,3 +1,16 @@
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Typography,
+    Button,
+  } from "@material-tailwind/react";
+  const YourComponent = () => {
+    const navigate = useNavigate();
+  }
+  
+import { useNavigate } from 'react-router-dom';
 import 'flowbite'
 export default function Events(){
     return <>
@@ -56,12 +69,114 @@ export default function Events(){
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
     
+{/* Welcome section */}
+<section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
+    <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Events</h1>
+        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"></p>
+        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>  
+        </div>
+    </div>
+</section>
+<br/>
+<br/>
 
+        {/* Cards */}
+        <div className="flex space-x-4 mt-6">
+  {/* Card 1 */}
+  <Card className="w-96">
+    <CardHeader color="blue-gray" className="relative h-56">
+      <img
+        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        alt="card-image"
+      />
+    </CardHeader>
+    <CardBody>
+      <Typography variant="h5" color="blue-gray" className="mb-2">
+        Weddings
+      </Typography>
+      <Typography>
+        The place is close to Barceloneta Beach and bus stop just 2 min by
+        walk and near to &quot;Naviglio&quot; where you can enjoy the main
+        night life in Barcelona.
+      </Typography>
+    </CardBody>
+    <CardFooter className="pt-0">
+    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-900">
+  Read More
+  <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+</a>  
+  </CardFooter>
+  </Card>
 
+  {/* Card 2 */}
+  <Card className="w-96">
+    <CardHeader color="blue-gray" className="relative h-56">
+      <img
+        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        alt="card-image"
+      />
+    </CardHeader>
+    <CardBody>
+      <Typography variant="h5" color="blue-gray" className="mb-2">
+        Concerts
+      </Typography>
+      <Typography>
+        The place is close to Barceloneta Beach and bus stop just 2 min by
+        walk and near to &quot;Naviglio&quot; where you can enjoy the main
+        night life in Barcelona.
+      </Typography>
+    </CardBody>
+    <CardFooter className="pt-0">
+    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-900">
+  Read More
+  <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+</a>  
+    </CardFooter>
+  </Card>
 
+  {/* Card 3 */}
+  <Card className="w-96">
+    <CardHeader color="blue-gray" className="relative h-56">
+      <img
+        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        alt="card-image"
+      />
+    </CardHeader>
+    <CardBody>
+      <Typography variant="h5" color="blue-gray" className="mb-2">
+        Holiday Picnics
+      </Typography>
+      <Typography>
+        The place is close to Barceloneta Beach and bus stop just 2 min by
+        walk and near to &quot;Naviglio&quot; where you can enjoy the main
+        night life in Barcelona.
+      </Typography>
+    </CardBody>
+    <CardFooter className="pt-0">
+    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-900">
+  Read More
+  <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+</a>         
+       </CardFooter>
+  </Card>
+</div>
 
-
-
+     <br/>
+     <br/>
+     <br/>        
 
      {/* Footer */}
 
