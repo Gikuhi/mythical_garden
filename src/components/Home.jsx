@@ -8,7 +8,7 @@ export default function Home(){
     <div className="container mx-auto flex flex-wrap items-center justify-between">
         <a href="/" className="flex">
         <img  className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" src="public/images/mythical_favicon.png"></img>
-
+        
         {/* <svg className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA"></path><path d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z" fill="#A4CAFE"></path><path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2"></path></g><defs><clipPath id="clip0"><rect width="51" height="70" fill="white"></rect></clipPath></defs></svg> */}
             <span className="self-center text-lg font-semibold whitespace-nowrap">MythicalPlace</span>
         </a>
@@ -63,23 +63,23 @@ export default function Home(){
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
          {/* <!-- Item 1 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-1.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="public/images/aerial2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         {/* <!-- Item 2 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-2.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="public/images/bed2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         {/* <!-- Item 3 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="public/images/waterfall2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         {/* <!-- Item 4 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-4.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="public/images/swimming.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         {/* <!-- Item 5 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src="public/images/Lake-Victoria-Birdwatching.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
     </div>
     {/* <!-- Slider indicators --> */}
@@ -123,10 +123,11 @@ export default function Home(){
 
   {/* Welcome section */}
 
-<section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+<section className="bg-center bg-no-repeat bg-[url('public/images/resortfront.jpg')] bg-gray-700 bg-blend-multiply">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
-        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Welcome to the <br/> Mystical Place </h1>
+        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+        Discover the enchanting allure of Mystical Place, a hidden gem nestled in a lush valley with cascading waterfalls, ancient forests, and crystal-clear lakes. Wander through meandering trails filled with the sweet fragrance of wildflowers and the melodic whispers of nature. At night, the sky transforms into a breathtaking canvas of twinkling stars. Whether you seek adventure or tranquility, Mystical Place is the perfect escape to rejuvenate your spirit and reconnect with nature. Come and experience the magic for yourself!        </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                 Get started
@@ -151,7 +152,7 @@ export default function Home(){
         <div className="w-full max-w-6xl mx-auto">
             <div className="text-center max-w-xl mx-auto">
                 <h1 className="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br/>are saying.</h1>
-                <h3 className="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <h3 className="text-xl mb-5 font-light">Let's see what a few of our customers have to say!</h3>
                 <div className="text-center mb-10">
                     <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
                     <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
@@ -172,7 +173,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"Mystical Place is truly a hidden paradise! The waterfalls were breathtaking, and the trails through the ancient forests felt like stepping into a fairytale. I left feeling completely rejuvenated."</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -185,7 +186,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"I've traveled to many beautiful spots, but Mystical Place stands out. The crystal-clear lakes and vibrant wildflowers were like nothing I've ever seen. It's a perfect getaway for nature lovers."</span></p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +201,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"Mystical Place exceeded all my expectations. The combination of stunning natural beauty and tranquil atmosphere makes it a must-visit. I can't wait to return!"</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -213,7 +214,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"From the moment I arrived at Mystical Place, I felt a sense of calm wash over me. The lush valley and shimmering lakes are straight out of a dream. It's the perfect spot to reconnect with nature."</span></p>
                         </div>
                     </div>
                 </div>
@@ -228,7 +229,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"Spending a night under the starlit sky at Mystical Place was an unforgettable experience. The peace and serenity I felt there are unmatched. I highly recommend it to anyone needing a break from the hustle and bustle."</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -241,7 +242,7 @@ export default function Home(){
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-black-400 mr-1">"I was blown away by the magic of Mystical Place. Every corner is filled with beauty and wonder, from the cascading waterfalls to the starry nights. It's a true sanctuary for the soul."</span></p>
                         </div>
                     </div>
                 </div>
@@ -259,9 +260,9 @@ export default function Home(){
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3" alt="FlowBite Logo" />
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+              <a href="/" className="flex items-center">
+                  <img src="public/images/mythical-logo-circle.png" className="h-8 me-3" alt="Logo" />
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mystical Place</span>
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
