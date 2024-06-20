@@ -8,6 +8,9 @@ import Events from "./components/Events.jsx";
 import Wedding from './components/Wedding.jsx';
 import Concert from './components/Concert.jsx';
 import Picnic from './components/Picnic.jsx';
+import Bronze from './components/Bronze.jsx';
+import Silver from './components/Silver.jsx';
+import Gold from './components/Gold.jsx';
 
 
 function App(){
@@ -23,10 +26,9 @@ function App(){
     <Route path = "/wedding"  element = {<Wedding/>} />
     <Route path = "/concert"  element = {<Concert/>} />
     <Route path = "/picnic"  element = {<Picnic/>} />
-
-
-
-
+    <Route path = "/bronze"  element = {<Bronze/>} />
+    <Route path = "/silver"  element = {<Silver/>} />
+    <Route path = "/gold"  element = {<Gold/>} />
 
 
 

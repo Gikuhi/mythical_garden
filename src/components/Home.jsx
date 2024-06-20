@@ -26,13 +26,13 @@ export default function Home(){
                 <div id="dropdownNavbar" className="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
                     <ul className="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Bronze</a>
+                        <a href="/bronze" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Bronze</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Silver</a>
+                        <a href="/silver" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Silver</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Gold</a>
+                        <a href="/gold" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Gold</a>
                     </li>
                     </ul>
                     {/* <div className="py-1">
