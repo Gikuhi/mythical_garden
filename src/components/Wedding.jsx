@@ -56,6 +56,8 @@ export default function Wedding(){
     </nav>
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+<br/>
+<br/>
 
    {/* Wedding Package   */}
    <section className="bg-white dark:bg-gray-900">

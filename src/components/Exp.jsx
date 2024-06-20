@@ -57,6 +57,8 @@ export default function Exp(){
     </nav>
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+<br/>
+<br/>
   {/* Welcome section */}
 
   <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">

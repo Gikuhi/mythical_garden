@@ -57,6 +57,9 @@ export default function Home(){
     </nav>
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+
+<br/>
+<br/>
     {/* Carousel */}
 <div id="default-carousel" className="relative w-full" data-carousel="slide">
      {/* Carousel wrapper  */}
