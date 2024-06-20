@@ -14,13 +14,15 @@ import { useNavigate } from 'react-router-dom';
 import 'flowbite'
 export default function Events(){
     return <>
-        {/* Navbar */}
+            {/* Navbar */}
 <div className="max-w-2xl mx-auto">
     
     <nav className="border-gray-200">
     <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <a href="#" className="flex">
-        <svg className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA"></path><path d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z" fill="#A4CAFE"></path><path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2"></path></g><defs><clipPath id="clip0"><rect width="51" height="70" fill="white"></rect></clipPath></defs></svg>
+        <a href="/" className="flex">
+        <img  className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" src="public/images/mythical_favicon.png"></img>
+
+        {/* <svg className="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z" fill="#76A9FA"></path><path d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z" fill="#A4CAFE"></path><path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z" fill="#1C64F2"></path></g><defs><clipPath id="clip0"><rect width="51" height="70" fill="white"></rect></clipPath></defs></svg> */}
             <span className="self-center text-lg font-semibold whitespace-nowrap">MythicalPlace</span>
         </a>
         <button data-collapse-toggle="mobile-menu" type="button" className="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -39,13 +41,13 @@ export default function Events(){
                 <div id="dropdownNavbar" className="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
                     <ul className="py-1" aria-labelledby="dropdownLargeButton">
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Bronze</a>
+                        <a href="/bronze" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Bronze</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Silver</a>
+                        <a href="/silver" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Silver</a>
                     </li>
                     <li>
-                        <a href="#" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Gold</a>
+                        <a href="/gold" className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Gold</a>
                     </li>
                     </ul>
                     {/* <div className="py-1">
@@ -68,7 +70,7 @@ export default function Events(){
     </nav>
 </div>
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
-    
+
 {/* Welcome section */}
 <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
