@@ -111,7 +111,7 @@ export default function Exp(){
                 <p>Kids’ activities include a swing, indoor games and of course the swimming pool.</p>
                 <br/>
                 <h4 className="text-lg text-gray-700 dark:text-white">LEISURE ACTIVITIES</h4>
-                <p> There are plenty of leisure activities to engage in including boat riding, hiking,camping and jet skiing.</p>
+                <p> There are plenty of leisure activities to engage in including boat riding,bike riding,camping and jet skiing.</p>
             
             </div>
         </div>
