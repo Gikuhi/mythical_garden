@@ -1,4 +1,7 @@
 import 'flowbite'
+import { Carousel } from "@material-tailwind/react";
+
+
 export default function Exp(){
     return<>
             {/* Navbar */}
@@ -61,7 +64,7 @@ export default function Exp(){
 <br/>
   {/* Welcome section */}
 
-  <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
+  <section className="bg-center bg-no-repeat bg-[url('public/images/hiking.jpg')] bg-gray-700 bg-blend-multiply ">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Experience</h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">The best time of your life.</p>
@@ -78,14 +81,37 @@ export default function Exp(){
 <br/>
 <br/>
             {/* Fun activities tab */}
-
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="public/images/swimming.jpg" alt="Swimming"/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+<div className="relative bg-gray-100 dark:bg-gray-800">
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="rounded-xl h-96 overflow-hidden">
+                <Carousel>
+                    <img
+                        src="public/images/biking.jpg"
+                        alt="image 1"
+                        className="h-full w-full object-cover"
+                    />
+                    <img
+                        src="public/images/camping.jpg"
+                        alt="image 2"
+                        className="h-full w-full object-cover"
+                    />
+                    <img
+                        src="public/images/jetski.jpg"
+                        alt="image 3"
+                        className="h-full w-full object-cover"
+                    />
+                </Carousel>
+                <h1>Fun Activities</h1>
+                <p>LO LOL LOL LOLLOL</p>    
+            </div>
+        </div>
+        
     </div>
-</a>
+</div>
+
+
+
 
 <br/>
 <br/>
