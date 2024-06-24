@@ -62,7 +62,7 @@ export default function Gold(){
     
          {/* Footer */}
 
-  <footer className="bg-[#0a0a0a] dark:bg-gray-100">
+         <footer className="bg-[#0a0a0a] dark:bg-gray-100">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -93,7 +93,7 @@ export default function Gold(){
                             <a href="#" className="hover:underline ">+254 (0) 789 835554</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">mthicalplace@gmail.com</a>
+                            <a href="#" className="hover:underline">mythicalplace@gmail.com</a>
                         </li>
                     </ul>
                 </div>

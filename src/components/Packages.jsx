@@ -137,7 +137,7 @@ export default function Packages(){
                             <a href="#" className="hover:underline ">+254 (0) 789 835554</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">mthicalplace@gmail.com</a>
+                            <a href="#" className="hover:underline">mythicalplace@gmail.com</a>
                         </li>
                     </ul>
                 </div>
