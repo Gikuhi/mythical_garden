@@ -80,12 +80,12 @@ export default function Exp(){
 </section>
 <br/>
 <br/>
-            {/* Fun activities tab */}
-<div className="relative bg-gray-100 dark:bg-gray-800">
+<div className="relative bg-white-100 dark:bg-gray-800">
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="rounded-xl h-96 overflow-hidden">
-                <Carousel>
+            {/* Carousel */}
+            <div className="rounded-xl h-96 sm:h-auto overflow-hidden relative">
+                <Carousel className="h-full w-full">
                     <img
                         src="public/images/biking.jpg"
                         alt="image 1"
@@ -102,33 +102,37 @@ export default function Exp(){
                         className="h-full w-full object-cover"
                     />
                 </Carousel>
-                <h1>Fun Activities</h1>
-                <p>LO LOL LOL LOLLOL</p>    
+            </div>
+            
+            {/* Text */}
+            <div className="flex flex-col justify-center">
+                <h1 className="text-3xl font-bold mb-4">Fun Activities</h1>
+                <h4 className="text-lg text-gray-700 dark:text-gray-400">KID'S ACTIVITIES</h4>
+                <p>Kids’ activities include a swing, indoor games and of course the swimming pool.</p>
+                <br/>
+                <h4 className="text-lg text-gray-700 dark:text-white">LEISURE ACTIVITIES</h4>
+                <p> There are plenty of leisure activities to engage in including boat riding, hiking,camping and jet skiing.</p>
+            
             </div>
         </div>
-        
     </div>
 </div>
 
-
-
-
 <br/>
 <br/>
-<p class="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
-<p class="text-gray-500 dark:text-gray-400">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease, with a complete audit trail for every change.</p>
-                    <br/>
+<p class="mb-3 text-black dark:text-white uppercase tracking-widest">
+    Tourist Attraction Sites Near Lake Victoria
+</p>
+<p class="text-black dark:text-white">
+    Explore the rich cultural heritage and natural beauty surrounding Lake Victoria. Visit attractions like Kisumu Impala Sanctuary, Rusinga Island, Ndere Island National Park, and enjoy activities such as fishing, birdwatching, and boat tours.
+</p>
+ <br/>
 
                 {/* Attractions */}
-                <a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="public/images/waterfall2.jpg" alt="Swimming"/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </div>
-</a>
+               
 
-<br/><br/>
+
+
 
     {/* Google Map Location*/}
  
