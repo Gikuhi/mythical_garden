@@ -74,7 +74,7 @@ export default function Events(){
 <br/>
 
 {/* Welcome section */}
-<section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
+<section className="bg-center bg-no-repeat bg-[url('public/images/event.jpg')] bg-gray-700 bg-blend-multiply ">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Events</h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"></p>
@@ -97,7 +97,7 @@ export default function Events(){
   <Card className="w-96">
     <CardHeader color="blue-gray" className="relative h-56">
       <img
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        src="public/images/Wedding.jpg"
         alt="card-image"
       />
     </CardHeader>
@@ -125,7 +125,7 @@ export default function Events(){
   <Card className="w-96">
     <CardHeader color="blue-gray" className="relative h-56">
       <img
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        src="public/images/concert.jpg"
         alt="card-image"
       />
     </CardHeader>
@@ -153,7 +153,7 @@ export default function Events(){
   <Card className="w-96">
     <CardHeader color="blue-gray" className="relative h-56">
       <img
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+        src="public/images/picnic.jpg"
         alt="card-image"
       />
     </CardHeader>
