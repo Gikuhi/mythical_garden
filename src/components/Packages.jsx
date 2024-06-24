@@ -60,7 +60,49 @@ export default function Packages(){
 <br/>
 <br/>
         {/* Packages */}
+        <div className="flex justify-center">
+    {/* Bronze */}
+    <div className="max-w-sm rounded overflow-hidden shadow-lg mx-2">
+        <img className="w-full" src="public/images/bed1.jpg" alt="Sunset in the mountains"/>
+        <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Bronze Package</div>
+            <p className="text-gray-700 text-base">
+            Bronze package offers comfortable accommodations with essential amenities, ensuring a relaxing stay amidst scenic surroundings.            </p>
+            <a href="/bronze" className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+    See More
+</a>
 
+        </div>
+    </div>
+
+    {/* Silver */}
+    <div className="max-w-sm rounded overflow-hidden shadow-lg mx-2">
+        <img className="w-full" src="public/images/bed2.jpg" alt="Sunset in the mountains"/>
+        <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Silver Package</div>
+            <p className="text-gray-700 text-base">
+            Upgrade to the Silver package for enhanced luxury, featuring spacious rooms, personalized services, and exclusive access to premium facilities.             </p>
+            <a href="/silver" className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+    See More
+</a>
+        </div>
+    </div>
+
+    {/* Gold */}
+    <div className="max-w-sm rounded overflow-hidden shadow-lg mx-2">
+        <img className="w-full" src="public/images/bed3.jpg" alt="Sunset in the mountains"/>
+        <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Gold Package</div>
+            <p className="text-gray-700 text-base">
+            For the ultimate experience, our Gold package includes lavish suites, VIP treatment, gourmet dining options, and a range of curated activities tailored for an unforgettable retreat.            </p>
+            <a href="/gold" className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+    See More
+</a>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
 
 
      {/* Footer */}
