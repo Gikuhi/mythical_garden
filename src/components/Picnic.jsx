@@ -66,7 +66,7 @@ export default function Picnic(){
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Choose the perfect package for your holiday picnic experience.</p>
       </div>
       <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-            {/* Regular Package   */}
+            {/* Regular Package*/}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Classic</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Basic picnic package.</p>
@@ -74,7 +74,7 @@ export default function Picnic(){
                   <span className="mr-2 text-5xl font-extrabold">$50</span>
                   <span className="text-gray-500 dark:text-gray-400">/person</span>
               </div>
-                 {/* List   */}
+                 {/* List*/}
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                       <span>Picnic Blanket Rental</span>
@@ -88,7 +88,7 @@ export default function Picnic(){
               </ul>
               <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>
-             {/* Deluxe Package */}
+             {/* Deluxe Package*/}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Deluxe</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Enhanced picnic experience.</p>
@@ -96,7 +96,7 @@ export default function Picnic(){
                   <span className="mr-2 text-5xl font-extrabold">$100</span>
                   <span className="text-gray-500 dark:text-gray-400">/person</span>
               </div>
-                 {/* List  */}
+                 {/* List*/}
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                       <span>Deluxe Picnic Set</span>
@@ -113,7 +113,7 @@ export default function Picnic(){
               </ul>
               <a href="#" className="text-white bg-black hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get started</a>
           </div>
-             {/* VIP Package   */}
+             {/* VIP Package*/}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Luxury</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ultimate picnic luxury.</p>
@@ -121,7 +121,7 @@ export default function Picnic(){
                   <span className="mr-2 text-5xl font-extrabold">$250</span>
                   <span className="text-gray-500 dark:text-gray-400">/person</span>
               </div>
-                 {/* List    */}
+                 {/* List*/}
               <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                       <span>Private Cabana Rental</span>

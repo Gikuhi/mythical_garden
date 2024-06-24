@@ -11,6 +11,7 @@ import Picnic from './components/Picnic.jsx';
 import Bronze from './components/Bronze.jsx';
 import Silver from './components/Silver.jsx';
 import Gold from './components/Gold.jsx';
+import Packages from './components/Packages.jsx';
 
 
 function App(){
@@ -29,6 +30,8 @@ function App(){
     <Route path = "/bronze"  element = {<Bronze/>} />
     <Route path = "/silver"  element = {<Silver/>} />
     <Route path = "/gold"  element = {<Gold/>} />
+    <Route path = "/packages"  element = {<Packages/>} />
+
 
 
 

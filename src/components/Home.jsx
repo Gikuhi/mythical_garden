@@ -1,4 +1,7 @@
 import 'flowbite'
+import { Carousel, Typography, Button } from "@material-tailwind/react";
+
+
 export default function Home(){
     return<>
     {/* Navbar */}
@@ -60,66 +63,101 @@ export default function Home(){
 
 <br/>
 <br/>
-    {/* Carousel */}
-<div id="default-carousel" className="relative w-full" data-carousel="slide">
-     {/* Carousel wrapper  */}
-    <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-         {/* <!-- Item 1 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="public/images/aerial2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+        {/* Carousel */}
+<Carousel className="rounded-xl">
+      <div className="relative h-full w-full">
+        <img
+          src="public/images/aerial2.jpg"
+          alt="image 1"
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+          <div className="w-3/4 text-center md:w-2/4">
+            <Typography
+              variant="h1"
+              color="white"
+              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+            >
+              A Glance Of Paradise
+            </Typography>
+            <Typography
+              variant="lead"
+              color="white"
+              className="mb-12 opacity-80"
+            >
+              Nestled amidst serene landscapes, our lake resort offers a picturesque escape where nature's beauty meets luxurious 
+              comfort. The crystal-clear waters of the lake reflect the vibrant hues of sunrise and sunset, creating a mesmerizing palette 
+              of colors that soothe the soul. Surrounded by lush greenery and majestic mountains, the resort's elegant architecture 
+              seamlessly blends with its natural surroundings, providing breathtaking views from every corner. Stroll along 
+              the tranquil shoreline, relax in beautifully landscaped gardens, or unwind on a private balcony – every moment 
+              at our lake resort is designed to immerse you in an oasis of peace and aesthetic splendor.
+            </Typography>
+          </div>
         </div>
-        {/* <!-- Item 2 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="public/images/bed2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+      </div>
+      <div className="relative h-full w-full">
+        <img
+          src="public/images/bed2.jpg"
+          alt="image 2"
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
+          <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
+            <Typography
+              variant="h1"
+              color="white"
+              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+            >
+              A Glance Of Paradise
+            </Typography>
+            <Typography
+              variant="lead"
+              color="white"
+              className="mb-12 opacity-80"
+            >
+             Nestled amidst serene natural beauty, our lake resort offers comfortable accommodation that promises 
+             a tranquil escape from the everyday hustle. Each room and cabin is designed with a perfect blend of
+              rustic charm and modern amenities, providing a cozy retreat with stunning lake views. Guests can 
+              unwind in spacious, well-appointed quarters featuring plush bedding, private balconies, and all 
+              the comforts of home, ensuring a restful and rejuvenating stay. Whether you're here for 
+              relaxation or adventure, our resort's welcoming ambiance and thoughtful touches make it the ideal lakeside sanctuary.
+            </Typography>
+          </div>
         </div>
-        {/* <!-- Item 3 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="public/images/waterfall2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+      </div>
+      <div className="relative h-full w-full">
+        <img
+          src="public/images/swimming.jpg"
+          alt="image 3"
+          className="h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+          <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+            <Typography
+              variant="h1"
+              color="white"
+              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+            >
+              A Glance Of Paradise
+            </Typography>
+            <Typography
+              variant="lead"
+              color="white"
+              className="mb-12 opacity-80"
+            >
+              Nestled along the serene shores of a picturesque lake, our resort offers a delightful 
+              array of swimming and fun facilities perfect for guests of all ages. Dive into our crystal-clear 
+              infinity pool, which seamlessly blends with the lake's horizon, or relax in our heated jacuzzi 
+              overlooking the water. For those seeking adventure, enjoy our water slides and splash zones, or 
+              explore the lake with our complimentary kayaks, paddleboards, and canoes. Whether you're lounging by the 
+              pool with a refreshing drink or engaging in thrilling water sports, our resort promises an unforgettable 
+              aquatic experience in a breathtaking natural setting.
+            </Typography>
+           
+          </div>
         </div>
-        {/* <!-- Item 4 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="public/images/swimming.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        {/* <!-- Item 5 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="public/images/Lake-Victoria-Birdwatching.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-    </div>
-    {/* <!-- Slider indicators --> */}
-    <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div>
-    {/* <!-- Slider controls --> */}
-    <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span className="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span className="sr-only">Next</span>
-        </span>
-    </button>
-</div>
-
-
-
-<div className="flex justify-center w-full py-2 gap-2">
-  <a href="#item1" className="btn btn-xs">1</a> 
-  <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a>
-</div>
+      </div>
+    </Carousel>
 <br/>
 <br/>
 <br/>
@@ -146,15 +184,17 @@ export default function Home(){
 </section>
 
 
+    
+
   {/* tiles of suites and activities  */}
 
 
   {/* Testimonies */}
   <div className="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5">
-    <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+    <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-[#0a0a0a]">
         <div className="w-full max-w-6xl mx-auto">
             <div className="text-center max-w-xl mx-auto">
-                <h1 className="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br/>are saying.</h1>
+                <h1 className="text-6xl md:text-7xl font-bold mb-5 text-[#0a0a0a]">What people <br/>are saying.</h1>
                 <h3 className="text-xl mb-5 font-light">Let's see what a few of our customers have to say!</h3>
                 <div className="text-center mb-10">
                     <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
@@ -259,90 +299,87 @@ export default function Home(){
 
   {/* Footer */}
 
-  <footer className="bg-white dark:bg-gray-900">
+  <footer className="bg-[#0a0a0a] dark:bg-gray-100">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-              <a href="/" className="flex items-center">
-                  <img src="public/images/mythical-logo-circle.png" className="h-8 me-3" alt="Logo" />
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mystical Place</span>
-              </a>
-          </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Where to find us</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                      <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline">Lake Victoria</a>
-                      </li>
-                      <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline">Migori-Muhuru Rd, Migori,</a>
-                      </li>
-                      <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline">Kenya</a>
-                      </li>
-                  </ul>
-              </div>
-              <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact us</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                      <li className="mb-4">
-                          <a href="#" className="hover:underline ">+254 (0) 789 835554</a>
-                      </li>
-                      <li>
-                          <a href="#" className="hover:underline">mthicalplace@gmail.com</a>
-                      </li>
-                  </ul>
-              </div>
-              <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Information</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-2">
-    <li className="mb-1">
-        <a href="/" className="hover:underline">Home</a>
-    </li>
-    <li>
-        <a href="/packages" className="hover:underline">Rooms & Suites</a>
-    </li>
-    <li>
-        <a href="/exp" className="hover:underline">Experiences</a>
-    </li>
-    <li>
-        <a href="/dining" className="hover:underline">Dining</a>
-    </li>
-    <li>
-        <a href="/events" className="hover:underline">Events</a>
-    </li>
-</ul>
-
-              </div>
-          </div>
-      </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Mythical Place™</a>. All Rights Reserved.
-          </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
-              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+            <div className="mb-6 md:mb-0">
+                <a href="/" className="flex items-center">
+                    <img src="public/images/mythical-logo-circle.png" className="h-8 me-3" alt="Logo" />
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fafafa]">Mystical Place</span>
+                </a>
+            </div>
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-[#fafafa]">Where to find us</h2>
+                    <ul className="text-[#fafafa] dark:text-gray-400 font-medium">
+                        <li className="mb-4">
+                            <a href="" className="hover:underline">Lake Victoria</a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">Migori-Muhuru Rd, Migori,</a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">Kenya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-[#fafafa]">Contact us</h2>
+                    <ul className="text-[#fafafa] dark:text-gray-400 font-medium">
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline ">+254 (0) 789 835554</a>
+                        </li>
+                        <li>
+                            <a href="#" className="hover:underline">mthicalplace@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white text-[#fafafa]">Information</h2>
+                    <ul className="text-[#fafafa] dark:text-gray-400 font-medium space-y-2">
+                        <li className="mb-1">
+                            <a href="/" className="hover:underline">Home</a>
+                        </li>
+                        <li>
+                            <a href="/packages" className="hover:underline">Rooms & Suites</a>
+                        </li>
+                        <li>
+                            <a href="/exp" className="hover:underline">Experiences</a>
+                        </li>
+                        <li>
+                            <a href="/dining" className="hover:underline">Dining</a>
+                        </li>
+                        <li>
+                            <a href="/events" className="hover:underline">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div className="sm:flex sm:items-center sm:justify-between">
+            <span className="text-sm text-[#fafafa] sm:text-center dark:text-gray-400">© 2024 <a href="#" className="hover:underline">Mythical Place™</a>. All Rights Reserved.</span>
+            <div className="flex mt-4 sm:justify-center sm:mt-0">
+                <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                     </svg>
-                  <span className="sr-only">Facebook page</span>
-              </a>
-              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                    <span className="sr-only">Facebook page</span>
+                </a>
+                <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
                         <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
                     </svg>
-                  <span className="sr-only">Discord community</span>
-              </a>
-              <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                </svg>
-                  <span className="sr-only">Twitter page</span>
-              </a>
-              
-          </div>
-      </div>
+                    <span className="sr-only">Discord community</span>
+                </a>
+                <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                        <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                    </svg>
+                    <span className="sr-only">Twitter page</span>
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
 
