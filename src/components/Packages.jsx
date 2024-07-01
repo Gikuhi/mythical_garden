@@ -1,4 +1,6 @@
 export default function Packages(){
+    document.title = "Packages"
+
     return<>
      {/* Navbar */}
 <div className="max-w-2xl mx-auto">

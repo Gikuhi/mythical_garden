@@ -3,6 +3,8 @@ import { Carousel } from "@material-tailwind/react";
 
 
 export default function Exp(){
+    document.title = "Experience"
+
     return<>
             {/* Navbar */}
 <div className="max-w-2xl mx-auto">
@@ -120,12 +122,13 @@ export default function Exp(){
 
 <br/>
 <br/>
-<p class="mb-3 text-black dark:text-white uppercase tracking-widest">
+<h1 className="mb-3 text-black dark:text-white font-bold italic text-2xl font-serif">
     Tourist Attraction Sites Near Lake Victoria
+</h1>
+<p className="text-black dark:text-white text-xl font-sans">
+    <span>Explore the rich cultural heritage and natural beauty surrounding Lake Victoria.</span> Visit attractions like Kisumu Impala Sanctuary, Rusinga Island, Ndere Island National Park, and enjoy activities such as fishing, birdwatching, and boat tours.
 </p>
-<p class="text-black dark:text-white">
-    Explore the rich cultural heritage and natural beauty surrounding Lake Victoria. Visit attractions like Kisumu Impala Sanctuary, Rusinga Island, Ndere Island National Park, and enjoy activities such as fishing, birdwatching, and boat tours.
-</p>
+
  <br/>
 
                 {/* Attractions */}

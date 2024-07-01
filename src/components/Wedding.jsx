@@ -1,4 +1,6 @@
 export default function Wedding(){
+    document.title = "Wedding"
+
     return <>
          {/* Navbar */}
 <div className="max-w-2xl mx-auto">

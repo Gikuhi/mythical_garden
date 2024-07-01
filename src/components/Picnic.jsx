@@ -1,4 +1,5 @@
 export default function Picnic(){
+    document.title = "Picnic"
     return<>
     {/* Navbar */}
     <div className="max-w-2xl mx-auto">

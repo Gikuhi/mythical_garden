@@ -1,5 +1,7 @@
 import 'flowbite'
 export default function Dining(){
+    document.title = "Dining"
+
     return <>
            {/* Navbar */}
 <div className="max-w-2xl mx-auto">

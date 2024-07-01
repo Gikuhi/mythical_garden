@@ -13,6 +13,8 @@ import {
 import { useNavigate } from 'react-router-dom';
 import 'flowbite'
 export default function Events(){
+  document.title = "Events"
+
     return <>
             {/* Navbar */}
 <div className="max-w-2xl mx-auto">
