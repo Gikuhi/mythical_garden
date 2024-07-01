@@ -157,7 +157,7 @@ export default function Picnic(){
             <div className="mb-6 md:mb-0">
                 <a href="/" className="flex items-center">
                     <img src="public/images/mythical-logo-circle.png" className="h-8 me-3" alt="Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fafafa]">Mystical Place</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fafafa]">Mythical Place</span>
                 </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -234,7 +234,5 @@ export default function Picnic(){
         </div>
     </div>
 </footer>
-    
-    
     </>
 }
