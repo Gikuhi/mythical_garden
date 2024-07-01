@@ -12,7 +12,7 @@ export default function Exp(){
         <div className="container mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full flex justify-center items-center">
                 <a href="/" className="flex justify-center">
-                    <img className="h-20" src="public/images/logo-no-background.png" alt="Logo"></img>
+                    <img className="h-20" src="images/logo-no-background.png" alt="Logo"></img>
                 </a>
                 <button data-collapse-toggle="mobile-menu" type="button" className="md:hidden absolute right-4 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -69,7 +69,7 @@ export default function Exp(){
 <br/>
   {/* Welcome section */}
 
-  <section className="bg-center bg-no-repeat bg-[url('public/images/hiking.jpg')] bg-gray-700 bg-blend-multiply ">
+  <section className="bg-center bg-no-repeat bg-[url('images/hiking.jpg')] bg-gray-700 bg-blend-multiply ">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Experience</h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">The best time of your life.</p>
@@ -92,17 +92,17 @@ export default function Exp(){
             <div className="rounded-xl h-96 sm:h-auto overflow-hidden relative">
                 <Carousel className="h-full w-full">
                     <img
-                        src="public/images/biking.jpg"
+                        src="images/biking.jpg"
                         alt="image 1"
                         className="h-full w-full object-cover"
                     />
                     <img
-                        src="public/images/camping.jpg"
+                        src="images/camping.jpg"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
                     <img
-                        src="public/images/jetski.jpg"
+                        src="images/jetski.jpg"
                         alt="image 3"
                         className="h-full w-full object-cover"
                     />
@@ -149,7 +149,7 @@ export default function Exp(){
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
                 <a href="/" className="flex items-center">
-                    <img src="public/images/logo-no-background.png" className="h-8 me-3" alt="Logo" />
+                    <img src="images/logo-no-background.png" className="h-8 me-3" alt="Logo" />
                     {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fafafa]">Mythical Place</span> */}
                 </a>
             </div>

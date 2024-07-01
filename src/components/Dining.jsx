@@ -9,7 +9,7 @@ export default function Dining(){
         <div className="container mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full flex justify-center items-center">
                 <a href="/" className="flex justify-center">
-                    <img className="h-20" src="public/images/logo-no-background.png" alt="Logo"></img>
+                    <img className="h-20" src="images/logo-no-background.png" alt="Logo"></img>
                 </a>
                 <button data-collapse-toggle="mobile-menu" type="button" className="md:hidden absolute right-4 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -66,7 +66,7 @@ export default function Dining(){
 <br/>
   {/* Welcome section */}
 
-  <section className="bg-center bg-no-repeat bg-[url('public/images/dining1.jpg')] bg-gray-700 bg-blend-multiply ">
+  <section className="bg-center bg-no-repeat bg-[url('images/dining1.jpg')] bg-gray-700 bg-blend-multiply ">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Dining</h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"></p>
@@ -102,7 +102,7 @@ export default function Dining(){
    {/* Restaurant & Bar tab */}
 
 <a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="public/images/swimming.jpg" alt="Swimming"/>
+    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="images/swimming.jpg" alt="Swimming"/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Eat. Drink. Relax. Repeat.</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400"><b>Hours & Reservations:</b> <i>Open Daily</i></p>
@@ -123,7 +123,7 @@ export default function Dining(){
    {/* Private Dining tab */}
 
 <a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="public/images/swimming.jpg" alt="Swimming"/>
+    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="images/swimming.jpg" alt="Swimming"/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Private Dining</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Our private dining is perfect for your breakfast, lunch meetings, dinner parties, or birthday parties for both business and family/social gatherings. We will serve you the best of meals from our kitchen, making each occasion something to talk about long you have left.</p>
@@ -139,7 +139,7 @@ export default function Dining(){
 
             {/* In-room dining tab */}
 <a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="public/images/swimming.jpg" alt="Swimming"/>
+    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="images/swimming.jpg" alt="Swimming"/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">In-Room Dining</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Our rooms have spacious balconies offering views of Lake Victoria and the great rift valley. You can choose to have breakfast, lunch, or dinner from your room balcony. This option is preferred by people who would like to have an exciting, private, and unique experience in their room. The experience provides an unforgettable combination of hospitality and most of all spectacular scenery.</p>
@@ -159,7 +159,7 @@ export default function Dining(){
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
                 <a href="/" className="flex items-center">
-                    <img src="public/images/logo-no-background.png" className="h-8 me-3" alt="Logo" />
+                    <img src="images/logo-no-background.png" className="h-8 me-3" alt="Logo" />
                     {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fafafa]">Mythical Place</span> */}
                 </a>
             </div>
